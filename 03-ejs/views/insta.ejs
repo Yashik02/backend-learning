@@ -1,0 +1,33 @@
+
+<!-- used for semi templates -->
+
+<%- include("includes/head.ejs") %>
+
+<body>
+    <h1>welcome to insta</h1>
+    <h3>Account : @<%= name %></h3>
+    <p><b>Followers :</b> <%= followers %> &emsp; <b>Following :</b> <%= following %></p>
+    <hr>
+
+    <div class="feed-container">
+
+        <% for( let i = 0; i < posts.length; i++ ) { %>
+            <article class="post-card">
+                <div class="post-image-container">
+                    <img src=<%= posts[i].image %> alt="Post content" class="post-image">
+                </div>
+                <div class="post-stats">
+                    <span class="likes">❤️ <%= posts[i].likes %> likes</span>
+                    <span class="comments">💬 <%= posts[i].comments %> comments</span>
+                </div>
+            </article>
+        <% } %>
+
+    </div>
+
+    <hr>
+
+    <%- include("includes/footer.ejs") %>
+
+</body>
+</html>

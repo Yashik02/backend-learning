@@ -1,0 +1,57 @@
+* {
+    background-color: floralwhite;
+}
+
+/* ==========================================================================
+   FEED CONTAINER & MULTIPLE POST LAYOUT (Isolated)
+   ========================================================================== */
+
+/* Manages the stack of cards below your page text */
+.feed-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+    max-width: 500px;  /* Limits how wide the posts get */
+    margin: 30px auto; /* Centers the whole feed block on your screen safely */
+    gap: 28px;         /* Adds a clean space between every post */
+}
+
+/* ==========================================================================
+   INDIVIDUAL POST CARD DESIGN
+   ========================================================================== */
+
+.post-card {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    width: 100%;
+    overflow: hidden; /* Keeps the top image corners rounded inside the card */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Image Formatting */
+.post-image-container {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.post-image {
+    width: 100%;
+    max-height: 400px; /* Stops massive vertical photos from taking over */
+    height: auto;
+    display: block;    /* Prevents weird whitespace gap under images */
+    object-fit: cover; /* Crops cleanly instead of squishing images */
+}
+
+/* Bottom Stats Panel Layout */
+.post-stats {
+    display: flex;
+    justify-content: space-between; /* Pushes likes to left, comments to right */
+    padding: 14px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+    border-top: 1px solid #f0f0f0; /* Soft separator between image and stats */
+}
