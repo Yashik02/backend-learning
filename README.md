@@ -12,5 +12,6 @@ Welcome to my backend learning repository! This repo serves as a daily log of my
 | 2026-07-05 | Introduction to express. learned about ports, running a live server, http requests, nodeman | [📂 Day 02](./02-expressjs) |
 | 2026-07-06 | learned about ejs, html templates, how to pass and use data from requests | [📂 Day 03](./03-ejs) |
 | 2026-07-07 | learned about POST request, javascript oops consepts | [📂 Day 04](./04-miscellaneous) |
+| 2026-07-08 | learned about RESTful APIs, made a simple posting web application implimenting rest | [📂 Day 05](./05-rest) |
 
 ---

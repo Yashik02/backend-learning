@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 });
 
 // Tell Express to serve everything inside the "public" folder
-//app.use(express.static('./simon-says'));
+app.use(express.static('./simon-says'));
 
 // this is used to make code into a server
 app.listen(port, () => {
