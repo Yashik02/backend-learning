@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit username</title>
+</head>
+<body>
+    <p>testing edit</p>
+    <form action="/user/<%= user.id %>?_method=PATCH" method="post">
+        <input type="text" placeholder="Enter new Username" name="newUsername" required value="<%= user.username %>">
+        <button>Submit</button>
+    </form>
+    <form action="/user/<%= user.id %>?_method=DELETE" method="post">
+        <button>Delete User</button>
+    </form>
+</body>
+</html>

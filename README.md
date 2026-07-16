@@ -13,5 +13,6 @@ Welcome to my backend learning repository! This repo serves as a daily log of my
 | 2026-07-06 | learned about ejs, html templates, how to pass and use data from requests | [📂 Day 03](./03-ejs) |
 | 2026-07-07 | learned about POST request, javascript oops consepts | [📂 Day 04](./04-miscellaneous) |
 | 2026-07-08 | learned about RESTful APIs, made a simple posting web application implimenting rest | [📂 Day 05](./05-rest) |
+| 2026-07-15 | Learned about MySQL database, SQL language, how to use and manage databases and tables. Learned how to use MySql with Node. Learned about how to make RESTful APIs with MySql database | [📂 Day 06](./06-sql) |
 
 ---
